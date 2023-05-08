@@ -1,5 +1,4 @@
 import { ApolloServer } from "@apollo/server";
-import { startStandaloneServer } from "@apollo/server/standalone";
 import { startServerAndCreateNextHandler } from "@as-integrations/next";
 
 // A schema is a collection of type definitions (hence "typeDefs")
