@@ -9,7 +9,7 @@ export function POST(request: NextRequest) {
   return handler(request);
 }
 
-export function UPDATE(request: NextRequest) {
+export function PATCH(request: NextRequest) {
   return handler(request);
 }
 
